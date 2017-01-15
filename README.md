@@ -7,12 +7,14 @@ By running this script,you can set up LVS usder DR,IP-TUN and/or NAT modes with 
 # USAGE
 In Linux distributions
 `# chmod a+x lvs_setup.sh`
-and then
-`# ./lvs_setup.sh -<Options> [ld|rs]`
 
+
+```
+# ./lvs_setup.sh -<Options> [ld|rs]
 Options:
 				-nat:Using LVS NAT mode;
 				-dr:Using LVS DR mode;
 				-iptun:Using Linux IPIP Tunnel;
 ld : Configure the load balancer;
 rs : Configure the real server.
+```
